@@ -1,0 +1,467 @@
+body {
+        background: url(images/bg.png) no-repeat center top black;
+        margin: 0 auto 0 auto;
+        color: white;
+        font-family: myriad pro, verdana, arial;
+        font-size: 13px;
+    }
+	
+a  {
+        color: white;
+        text-decoration: none;
+    }
+    
+a:hover {
+        text-decoration: underline;
+    }
+    
+.container {
+        width: 1148px;
+        margin: 0 auto 0 auto;
+        height: auto;
+    }
+    
+.mini_container {
+        width: 918px;
+        margin: 0 auto 0 auto;
+                background-color: black;
+                border: 1px solid #515151;
+                border-top: none;
+                border-bottom: none;
+                height: auto;
+                min-height: 700px;
+    }
+    
+.banner {
+        width: 1148px;
+        height: 409px;
+       background: url(images/logo.png) center 0% no-repeat; 
+    }
+    
+.left_contain {
+        background: url(images/sidebar/base.png) no-repeat;
+        width: 299px;
+        height: 423px;
+
+    }
+    
+.right_contain {
+        background: url(images/content/base.png) repeat-x;
+        height: auto;
+        width: 565px;
+        position: relative;
+        left: 35%;
+        text-align: center;
+        margin-top: -420px;
+    }
+.right_contain_home {
+        background: url(images/content/base_home.png) repeat-x;
+        min-height: 765px;
+        height: auto;
+        width: 570px;
+        position: relative;
+        left: 35%;
+        margin-top: -420px;
+    }
+    
+    #par {
+            padding: 10px;
+                    min-height: 400px;
+        }
+    
+.userpanel_contain {
+        background: url(images/user/base.png) no-repeat;
+        height: 39px;
+        width: 912px;
+        margin: 0 auto;
+    }
+    
+.footer {
+    position: relative;
+    right: 50%;
+ padding-bottom: 30px;
+    width: 900px;
+    padding: auto;
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: myriad pro, arial;
+    }   
+    
+    .clear {
+        clear: both;
+        margin-bottom: 20px;
+        }
+    
+  .nav {
+        height: 55px;
+        margin: 0 auto;
+        padding: 0 auto;
+        width:919px;
+        display: biock;
+        padding-left: 0px;
+        }
+        
+       /* .nav li {
+                margin: auto;
+                padding: 0 auto;
+                  list-style-type:none; 
+                  display:inline; 
+                    height:55px; 
+            text-align:center; 
+            margin-left: 30px;
+    float:left; 
+    line-height:55px; 
+            }
+            
+            .nav a {
+                             font-size: 14px;
+                    display: inline;
+                   text-shadow: -1px 2px 5px #111;
+                }
+                
+                .nav a:hover {
+                    text-decoration: underline;
+                    }
+                    
+                  /*  .navhome { }
+                    .navhome:hover {
+                                                    background: url(images/nav/nav1.png) no-repeat;
+                                                   height: 100%;
+                                                   width: 98px;
+                                                   position: relative;
+                        }
+                        .navregister { }
+                        .navregister:hover {
+                                                                                    background: url(images/nav/nav1.png) no-repeat;
+                                                   height: 100%;
+                                                   width: 100px;
+                                                   position: relative;
+                                                   left: -3%;
+                            } */
+        #panelbg {
+                width: 144px;
+                height: 35px;
+                background: url(images/user/status_bg.png) no-repeat;
+                float: left;
+                margin: 2px;
+            }
+            
+            #panelbg2 {
+                    height: 35px;
+                    font-size: 17px;
+                }
+                
+                .input {
+                        background: url(images/user/input.png) no-repeat;
+                        width: 208px;
+                        height: 31px;
+                        border: none;
+                        text-align: center;
+                        color: #000;
+                    }        
+      
+          textarea:focus, input:focus { 
+box-shadow:inset 0 0 5px #333;
+-moz-box-shadow:inset 0 0 5px #333;
+}
+
+.inputbox input {
+background:url(images/user/button.png) no-repeat;
+cursor:pointer;
+width: 112px;
+height: 39px;
+border: none;
+}
+
+.inputbox2 input {
+background:url(images/content/submit.png) no-repeat;
+cursor:pointer;
+width: 164px;
+height: 59px;
+border: none;
+}
+
+.inputbox input:hover {
+        background: url(images/user/button_h.png);
+    }
+.inputbox2 input:hover {
+        background: url(images/content/submit2.png);
+    }
+ 
+ #column1 {
+        margin-top: 20px;
+     }
+     #column2 {
+        margin-top: 10px;
+     }
+     #column3 {
+        margin-top: 10px;
+     }
+                        /* USEFUL STUFF. */
+                        #sidebar_inside {
+                                text-align: center;
+                                margin: 0 auto;
+                                padding: 0 auto;
+                                border: none;
+                            }
+							
+							.cock {
+								
+								
+								
+								
+							}
+                            
+                            .slider_contain {
+                                }
+                                
+                                #border {
+                                    padding: 5px;
+                                    border-bottom: 1px solid #000017;
+                                    box-shadow: 0px 1px 0px #000047;
+                                    }
+                            
+                            #buttons { background: url(images/side/youtube.png); width: 50px; height: 50px; margin-left: 70px; margin-top: -25px;}
+                            #buttons:hover { background: url(images/side/youtube2.png); margin-left: 70px; }
+                            #buttons2 { background: url(images/side/facebook.png); width: 50px; height: 50px; margin-top: -25px; margin-left: -10px;}
+                            #buttons2:hover { background: url(images/side/facebook2.png);}
+                            #sidebutton { background: url(images/side/button1.png); width: 280px; height: 52px; }
+                            #sidebutton:hover { background: url(images/side/button1_hover.png); }
+                            #sidebutton2 { background: url(images/side/button2.png); width: 280px; height: 52px; margin-top: 2px;}
+                            #sidebutton2:hover { background: url(images/side/button2_hover.png); }
+        .
+        /* SLIDE */
+         .banner-slider #slider-left {
+ 	width: 5px;
+ 	height: 250px;
+ 	background: url('../images/slideshow/frame_left.png') no-repeat left top;
+ 	float: left;
+ }
+ 
+ .banner-slider #slider-middle {
+ 	height: 250px;
+ 	background: url('../images/slideshow/frame_middle.png') repeat-x left top;
+ 	float: left;
+ }
+ 
+ 
+ 
+ .banner-slider #slider-right {
+ 	width: 5px;
+ 	height: 250px;
+ 	background: url('../images/slideshow/frame_right.png') no-repeat left top;
+ 	float: left; }
+        
+         .button {
+	
+ text-align: center;
+                                                                    border: 1px solid #111;
+                                                                    color: white;
+                                                                        -webkit-box-shadow: inset 0 0 1px #555;
+    -moz-box-shadow: inset 0 0 1px #555;
+    box-shadow: inset 0 0 1px #555;
+                                                                    text-shadow: 0px 1px 0px #000;
+background: #353535; /* Old browsers */
+background: -moz-linear-gradient(top,  #353535 0%, #0e0e0e 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#353535), color-stop(99%,#0e0e0e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* IE10+ */
+background: linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+margin-bottom: 50px;
+                                                    }
+                                                    .button:hover {
+                                                            box-shadow: inset 0 0 3px #000;
+                                                        }
+                                                        
+                                                                                                                #errorbox {
+                                                                width: 380px;
+                                                                height: 35px;
+                                                                margin: 0 auto;
+                                                                border: 1px solid #d55700;
+                                                                color: white;
+                                                               text-shadow: 0px 1px 0px #a44c00;
+ border: 1px solid #111;
+                                                                    color: white;
+                                                                        -webkit-box-shadow: inset 0 0 1px #555;
+    -moz-box-shadow: inset 0 0 1px #555;
+    box-shadow: inset 0 0 1px #555;
+                                                                    text-shadow: 0px 1px 0px #555;
+background: #353535; /* Old browsers */
+background: -moz-linear-gradient(top,  #353535 0%, #0e0e0e 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#353535), color-stop(99%,#0e0e0e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* IE10+ */
+background: linear-gradient(top,  #353535 0%,#0e0e0e 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+                                                         }
+                                                         
+                                                         #dltext {
+                                                                background: url(images/tools/dl1.png);
+                                                                width: 255px;
+                                                                height: 93px;
+                                                             }
+                                                             
+                                                             #dltext:hover {
+                                                                    background: url(images/tools/dl2.png);
+                                                                 }
+
+/*Pixel and Alpha Edits*/
+.home {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 178px;
+	height: 55px;
+	background: url('images/home.png') bottom;
+	text-indent: -99999px;
+}
+.home span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/home.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.home:hover span {
+	opacity: 1;
+}
+
+.register {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 79px;
+	height: 55px;
+	background: url('images/register.png') bottom;
+	text-indent: -99999px;
+}
+.register span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/register.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.register:hover span {
+	opacity: 1;
+}
+.download {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 112px;
+	height: 55px;
+	background: url('images/download.png') bottom;
+	text-indent: -99999px;
+}
+.download span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/download.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.download:hover span {
+	opacity: 1;
+}
+.community {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 117px;
+	height: 55px;
+	background: url('images/community.png') bottom;
+	text-indent: -99999px;
+}
+.community span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/community.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.community:hover span {
+	opacity: 1;
+}
+.vote {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 61px;
+	height: 55px;
+	background: url('images/vote.png') bottom;
+	text-indent: -99999px;
+}
+.vote span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/vote.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.vote:hover span {
+	opacity: 1;
+}
+.ranking {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 86px;
+	height: 55px;
+	background: url('images/ranking.png') bottom;
+	text-indent: -99999px;
+}
+.ranking span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/ranking.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.ranking:hover span {
+	opacity: 1;
+}
+.vs {
+	float:left;
+	display: inline-block;
+	position: relative;
+	width: 286px;
+	height: 55px;
+	background: url('images/vs.png') bottom;
+	text-indent: -99999px;
+}
+.vs span {
+    position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: url('images/vs.png') bottom;
+	background-position: 0 0;
+	opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.vs:hover span {
+	opacity: 1;
+}																 
+										
